@@ -4,7 +4,7 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package co.keos.pengisdkexample;
+package android.support.v7.appcompat;
 
 public final class R {
     public static final class anim {
@@ -755,7 +755,6 @@ public final class R {
         public static int abc_shareactionprovider_share_with = 0x7f15001b;
         public static int abc_shareactionprovider_share_with_application = 0x7f15001c;
         public static int abc_toolbar_collapse_description = 0x7f15001d;
-        public static int app_name = 0x7f15001e;
         public static int search_menu_title = 0x7f15001f;
         public static int status_bar_notification_info_overflow = 0x7f150020;
     }
