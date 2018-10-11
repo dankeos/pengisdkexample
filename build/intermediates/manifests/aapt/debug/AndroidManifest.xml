@@ -3,7 +3,7 @@
     package="co.keos.pengisdkexample" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="25" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
 
 </manifest>
