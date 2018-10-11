@@ -4,11 +4,12 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package android.support.compat;
+package android.support.coordinatorlayout;
 
 public final class R {
     public static final class attr {
         public static int alpha = 0x7f040028;
+        public static int coordinatorLayoutStyle = 0x7f04005f;
         public static int font = 0x7f040074;
         public static int fontProviderAuthority = 0x7f040076;
         public static int fontProviderCerts = 0x7f040077;
@@ -19,6 +20,14 @@ public final class R {
         public static int fontStyle = 0x7f04007c;
         public static int fontVariationSettings = 0x7f04007d;
         public static int fontWeight = 0x7f04007e;
+        public static int keylines = 0x7f04008e;
+        public static int layout_anchor = 0x7f040091;
+        public static int layout_anchorGravity = 0x7f040092;
+        public static int layout_behavior = 0x7f040093;
+        public static int layout_dodgeInsetEdges = 0x7f040094;
+        public static int layout_insetEdge = 0x7f040095;
+        public static int layout_keyline = 0x7f040096;
+        public static int statusBarBackground = 0x7f0400d1;
         public static int ttcIndex = 0x7f040104;
     }
     public static final class color {
@@ -73,20 +82,26 @@ public final class R {
         public static int actions = 0x7f0c0012;
         public static int async = 0x7f0c0016;
         public static int blocking = 0x7f0c0017;
+        public static int bottom = 0x7f0c0018;
         public static int chronometer = 0x7f0c001b;
+        public static int end = 0x7f0c0023;
         public static int forever = 0x7f0c0026;
         public static int icon = 0x7f0c0029;
         public static int icon_group = 0x7f0c002a;
         public static int info = 0x7f0c002c;
         public static int italic = 0x7f0c002d;
+        public static int left = 0x7f0c002e;
         public static int line1 = 0x7f0c002f;
         public static int line3 = 0x7f0c0030;
+        public static int none = 0x7f0c0035;
         public static int normal = 0x7f0c0036;
         public static int notification_background = 0x7f0c0037;
         public static int notification_main_column = 0x7f0c0038;
         public static int notification_main_column_container = 0x7f0c0039;
+        public static int right = 0x7f0c003e;
         public static int right_icon = 0x7f0c003f;
         public static int right_side = 0x7f0c0040;
+        public static int start = 0x7f0c0056;
         public static int tag_transition_group = 0x7f0c005a;
         public static int tag_unhandled_key_event_manager = 0x7f0c005b;
         public static int tag_unhandled_key_listeners = 0x7f0c005c;
@@ -94,6 +109,7 @@ public final class R {
         public static int text2 = 0x7f0c005e;
         public static int time = 0x7f0c0061;
         public static int title = 0x7f0c0062;
+        public static int top = 0x7f0c0065;
     }
     public static final class integer {
         public static int status_bar_notification_info_maxnum = 0x7f0d0005;
@@ -117,12 +133,24 @@ public final class R {
         public static int TextAppearance_Compat_Notification_Title = 0x7f1600f0;
         public static int Widget_Compat_NotificationActionContainer = 0x7f160158;
         public static int Widget_Compat_NotificationActionText = 0x7f160159;
+        public static int Widget_Support_CoordinatorLayout = 0x7f16015a;
     }
     public static final class styleable {
         public static int[] ColorStateListItem = { 0x7f040028, 0x0101031f, 0x010101a5 };
         public static int ColorStateListItem_alpha = 0;
         public static int ColorStateListItem_android_alpha = 1;
         public static int ColorStateListItem_android_color = 2;
+        public static int[] CoordinatorLayout = { 0x7f04008e, 0x7f0400d1 };
+        public static int CoordinatorLayout_keylines = 0;
+        public static int CoordinatorLayout_statusBarBackground = 1;
+        public static int[] CoordinatorLayout_Layout = { 0x010100b3, 0x7f040091, 0x7f040092, 0x7f040093, 0x7f040094, 0x7f040095, 0x7f040096 };
+        public static int CoordinatorLayout_Layout_android_layout_gravity = 0;
+        public static int CoordinatorLayout_Layout_layout_anchor = 1;
+        public static int CoordinatorLayout_Layout_layout_anchorGravity = 2;
+        public static int CoordinatorLayout_Layout_layout_behavior = 3;
+        public static int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 4;
+        public static int CoordinatorLayout_Layout_layout_insetEdge = 5;
+        public static int CoordinatorLayout_Layout_layout_keyline = 6;
         public static int[] FontFamily = { 0x7f040076, 0x7f040077, 0x7f040078, 0x7f040079, 0x7f04007a, 0x7f04007b };
         public static int FontFamily_fontProviderAuthority = 0;
         public static int FontFamily_fontProviderCerts = 1;
