@@ -4,7 +4,7 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package android.support.documentfile;
+package android.support.v4;
 
 public final class R {
 }
