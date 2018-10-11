@@ -19,6 +19,13 @@ buildscript {
     }
 }
 
+allprojects {
+    repositories {
+        google() // and here
+        jcenter()
+    }
+}
+
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.dankeos'
