@@ -4,7 +4,7 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package co.keos.pengisdkexample;
+package android.support.v7.appcompat;
 
 public final class R {
     public static final class anim {
@@ -359,7 +359,6 @@ public final class R {
         public static int abc_searchview_description_voice = 0x7f15000b;
         public static int abc_shareactionprovider_share_with = 0x7f15000c;
         public static int abc_shareactionprovider_share_with_application = 0x7f15000d;
-        public static int app_name = 0x7f15000e;
     }
     public static final class style {
         public static int TextAppearance_AppCompat_Base_CompactMenu_Dialog = 0x7f160001;
